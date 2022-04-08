@@ -131,7 +131,7 @@ function updateArray() {
   printsCards()
 }
 
-function byRating(orderValue) { arrayFiltered = arrayFiltered.sort((a, b) => b.rating - a.rating)}
+function byRating() { arrayFiltered = arrayFiltered.sort((a, b) => b.rating - a.rating)}
 
 function byPrice(orderValue) {
   arrayFiltered = arrayFiltered.sort((a, b) => a.price - b.price)
