@@ -1,20 +1,22 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  font-family: arial, sans-serif;
+  /* font-family: arial, sans-serif; */
 }
-#conteinerCards{
+#conteinerCards {
   display: contents;
 }
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 500px;
 }
 
-.card:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 .background-brand {
@@ -73,13 +75,14 @@ main {
 }
 
 .catalog-control .form-control {
-  margin: 0 0.5rem;
+  margin: 0 0.5rem 0 0.7rem;
   font-size: 1.1rem;
   display: grid;
   grid-template-columns: 3rem minmax(13rem, 15rem);
   grid-gap: 0.5rem;
   align-items: center;
   justify-content: center;
+  justify-items: right;
 }
 
 @media (min-width: 840px) {
@@ -126,6 +129,7 @@ main {
   background-color: #f2f2f2;
   overflow: hidden;
   position: relative;
+  height: 100%;
 }
 
 .product:hover {
@@ -147,7 +151,7 @@ main {
   transition: transform 0.3s;
 }
 
-.img{
+.img {
   background-size: cover;
   height: 250px;
   width: 187;
@@ -162,6 +166,10 @@ main {
   margin: 0 1rem 1rem;
   padding: 0.5rem;
   transition: transform 0.3s;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .product:focus .product-description {
@@ -180,6 +188,7 @@ main {
 
 .product .product-brands {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .product .product-brand {
@@ -191,6 +200,8 @@ main {
   padding: 0.1rem 0.3rem;
   font-size: 0.8rem;
   font: bold;
+  border-radius: 8%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .product .product-details {
@@ -228,10 +239,10 @@ main {
   padding: 0 0.2rem;
 }
 
-.fora{
-  display:none
+.fora {
+  display: none;
 }
 
-.cartao{
+.cartao {
   height: 20px;
 }
