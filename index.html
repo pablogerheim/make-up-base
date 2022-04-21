@@ -15,7 +15,11 @@
       <form class="catalog-control">
         <div class="form-control">
           <label for="filter-name">Nome:</label>
-          <input onkeyup="searchName(value)" id="filter-name" class='filter-name'/>
+          <input
+            onkeyup="searchName(value)"
+            id="filter-name"
+            class="filter-name"
+          />
         </div>
         <div class="form-control">
           <label for="filter-brand">Marca:</label>
@@ -32,17 +36,17 @@
         <div class="form-control">
           <label for="sort"></label>
           <select id="sort-type">
-            <option value ='0'>Melhor Avaliados</option>
-            <option value ='1'>Menores Preços</option>
-            <option value ='2'>Maiores Preços</option>
-            <option value ='3'>A-Z</option>
-            <option value ='4'>Z-A</option>
+            <option value="0">Melhor Avaliados</option>
+            <option value="1">Menores Preços</option>
+            <option value="2">Maiores Preços</option>
+            <option value="3">A-Z</option>
+            <option value="4">Z-A</option>
           </select>
         </div>
       </form>
-      <section class="catalog" id="catalog"> </section>
+      <section class="catalog" id="catalog"></section>
     </main>
-    <script src="js/data.js"></script>
+    <!-- <script src="js/data.js"></script> -->
     <script src="js/index.js"></script>
   </body>
 </html>
