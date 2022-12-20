@@ -1,6 +1,8 @@
 # Portfolio
 
-Projeto - curso pós-MBA - Apresenta uma grande variedade de produtos de maquiagem e oferece filtros para procurá-los.
+Projeto - curso pós-MBA - Apresenta uma grande variedade de produtos de maquiagem vindos de uma Api e oferece filtros para procurá-los.
+ 
+*Obs: A api com os produtos pode estar fora do ar.
 
 ## Link Vercel: https://loja-puce.vercel.app/
 
