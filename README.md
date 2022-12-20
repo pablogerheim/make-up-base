@@ -2,7 +2,7 @@
 
 Projeto - curso pós-MBA - Apresenta uma grande variedade de produtos de maquiagem vindos de uma Api e oferece filtros para procurá-los.
  
-*Obs: A api com os produtos pode estar fora do ar.
+*Obs: como a Api pode estar fora do ar, armazenei os itens em um array.
 
 ## Link Vercel: https://make-up-base-bice.vercel.app/
 

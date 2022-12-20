@@ -183,9 +183,10 @@ function byAlfa(orderValue) {
 
 async function start() {
 	document.getElementById("sort-type").value = 0;
-	apiArray = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
-		.then((resp) => resp.json())
-		.catch((rej) => console.error("erro na api  " + rej));
+	apiArray = [...apiArrayx];
+  // await fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
+	// 	.then((resp) => resp.json())
+	// 	.catch((rej) => console.error("erro na api  " + rej));
 
 	arrayFiltered = [...apiArray];
 	format();

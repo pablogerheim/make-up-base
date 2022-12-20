@@ -1,4 +1,4 @@
-let apiArray = [{
+let apiArrayx = [{
     "id": 1048,
     "brand": "colourpop",
     "name": "Lippie Pencil",
