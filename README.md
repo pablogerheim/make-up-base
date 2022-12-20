@@ -4,7 +4,7 @@ Projeto - curso pós-MBA - Apresenta uma grande variedade de produtos de maquiag
  
 *Obs: A api com os produtos pode estar fora do ar.
 
-## Link Vercel: https://loja-puce.vercel.app/
+## Link Vercel: https://make-up-base-bice.vercel.app/
 
 Imagen Ilustrativa
 
